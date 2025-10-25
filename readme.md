@@ -43,3 +43,5 @@ git push origin --force
 This completely removes all historical traces of .env.​
 
 Once you’ve done the above steps, .env will stay local and safely ignored by Git moving forward.
+
+## or regenerate keys so that they are no longer the same
