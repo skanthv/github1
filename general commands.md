@@ -21,6 +21,12 @@ check the branch you are now currently in..if that is where you want to change c
 Because you initially cloned the repo, so the link to it is still there so 
 `git push` . auto creates  a branch as in your local, pushes code to the remote repo 
 
+### if you did not clone the repo from github, and you only created a github repo later after creating the code locally..
+you need to first link the github repo to the local git repo
+`git remote add origin github-repo-link.git`
+then `git push origin local-branch-name` this adds contents in current git branch in local code to github repo's branch same as local branch .
+
+
 # adding the changes to the main branch in github
 go to azure devops, go to pull requests option on the left side on the repo, fill the form
 indicate the branch you created, which branch you want to merge into, give details and submit
